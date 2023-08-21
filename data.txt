@@ -1,4 +1,0 @@
-<h1>We are learning Ajax</h1>
-<div>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque quibusdam quod illum nam accusantium enim et quisquam sequi velit tempore aut voluptas a ducimus, voluptate quaerat aliquam dignissimos earum. Sunt, unde voluptas!
-</div>
