@@ -5,15 +5,16 @@ function loadData(){
   xhr.onload = function(){
     const container = document.getElementById('demo');
     container.innerHTML = this.responseText;
+    //console.log(this.getAllResponseHeaders())
+    console.log(this.getResponseHeader("etag"))
   };
 
 //prepare request = methods: GET,POST,PUT,PATCH,DELETE
-xhr.open("GET","./data/data.txt",);
+xhr.open("GET","./data/data.txt");
 
 
 //send request
 xhr.send();
 
-//abort request
-//xhr.abort();
 }
+
