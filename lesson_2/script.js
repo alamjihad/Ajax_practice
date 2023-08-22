@@ -16,8 +16,8 @@ xhr.open("GET","./data/data.txt",);
 //send request
 xhr.send();
 
-//abort request
-//xhr.abort();
+
+
 }
 
 function myCallback1(xhr){
@@ -26,6 +26,6 @@ function myCallback1(xhr){
 }
 
 function myCallback2(xhr){
-  const container = document.getElementById("demo");
+  const container = document.getElementById("demo2");
   container.innerHTML = xhr.responseText;
 }
